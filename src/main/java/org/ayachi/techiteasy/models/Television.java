@@ -3,7 +3,7 @@ package org.ayachi.techiteasy.models;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "Televisions")
+@Table(name = "television")
 public class Television {
 
     @Id
@@ -25,6 +25,7 @@ public class Television {
     private Boolean ambiLight;
     private Integer originalStock;
     private Integer sold;
+    private Object setID;
 
     public Television() {
 
@@ -171,5 +172,6 @@ public class Television {
 
     public void setSold(Integer sold) {
         this.sold = sold;
+
     }
 }

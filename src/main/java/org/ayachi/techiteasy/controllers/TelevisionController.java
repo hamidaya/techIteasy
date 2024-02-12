@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(value = "/api/televisions")
+@RequestMapping(value = "/televisions")
 public class TelevisionController {
 
     private final TelevisionRepository televisionRepository;
